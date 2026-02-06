@@ -1,73 +1,58 @@
-# React + TypeScript + Vite
+# Tamura Ilyas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Software Engineer | Full-Stack Developer | Cloud & AI Systems  
+Melbourne, Australia  
 
-Currently, two official plugins are available:
+📧 tamurailyas@gmail.com  
+🔗 https://linkedin.com/in/tamura-ilyas  
+💻 https://github.com/tamura-ilyas  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 👋 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I’m a Software Engineer with experience building full-stack web applications, cloud-native systems, and AI-powered solutions.  
+I specialize in React, Django, AWS, and Generative AI (RAG/LLMs).
 
-## Expanding the ESLint configuration
+I enjoy designing scalable systems and turning real-world problems into production-ready software.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠 Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+**Languages:** Python, JavaScript  
+**Frontend:** React, HTML, CSS  
+**Backend:** Django, Django REST Framework, Node.js, Express  
+**Databases:** MySQL, PostgreSQL  
+**Cloud/DevOps:** AWS (Lambda, S3, EC2, API Gateway, Bedrock), Docker, Git, CI/CD  
+**AI/ML:** LLMs, RAG, FAISS, TensorFlow  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Projects
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### SmartMedNotes
+Generative AI-powered clinical documentation system using RAG and LLMs.  
+- Built with Flask, FAISS, sentence-transformers  
+- Context-aware medical Q&A  
+- Deployed with Vercel + Firebase  
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Real-Time Heart Rate Monitoring Web App
+Full-stack health tracking application.  
+- React frontend + Django REST backend  
+- JWT authentication  
+- Real-time heart rate data storage and analytics  
+
+### Brain Tumor CNN Classifier
+Deep learning model for MRI image classification.  
+- TensorFlow + CNN + Transfer Learning (VGG16)  
+- End-to-end ML pipeline  
+
+---
+
+## ⚙️ Run Locally
+
+### Clone
+```bash
+git clone https://github.com/tamura-ilyas/myportfolio.git
+cd myportfolio
